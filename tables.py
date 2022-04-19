@@ -1,18 +1,3 @@
-# create symbol table
-symbolTable = {}
-symbolTable["SP"] = 0
-symbolTable["LCL"] = 1
-symbolTable["ARG"] = 2
-symbolTable["THIS"] = 3
-symbolTable["THAT"] = 4
-
-for i in range(16):
-    symbolTable["R" + str(i)] = i
-
-symbolTable["SCREEN"] = 16384
-symbolTable["KBD"] = 24576
-
-
 # create comp table
 compTable = {}
 compTable["0101010"] = "0"
